@@ -3,4 +3,4 @@ __pycache__/
 .ipynb_checkpoints/
 individuella_uppgifter/
 .DS_Store
-.vscode/
+.vscode/07_ANN/creditcard.csv
