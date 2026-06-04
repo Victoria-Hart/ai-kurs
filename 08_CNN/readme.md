@@ -94,10 +94,6 @@ Transfer learning using MobileNetV2 pretrained on ImageNet.
 
 The Transfer Learning CNN achieved the highest performance and demonstrated superior generalization compared to the custom CNN architectures.
 
-### Transfer Learning Confusion Matrix
-
-<img src="images/transfer_confusion_matrix.png" width="60%">
-
 ---
 
 ## Live Demo
