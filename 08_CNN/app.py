@@ -27,6 +27,9 @@ def load_models():
 
     return enhanced, transfer
 
+
+enhanced_model, transfer_model = load_models()
+
 # --------------------------------------------------
 # Demo Images
 # --------------------------------------------------
