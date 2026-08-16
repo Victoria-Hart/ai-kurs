@@ -6,6 +6,8 @@ from pathlib import Path
 from PIL import Image
 from tensorflow.keras.models import load_model
 
+BASE_DIR = Path(__file__).resolve().parent
+
 # --------------------------------------------------
 # Load Models
 # --------------------------------------------------
@@ -114,9 +116,10 @@ if uploaded_file is not None:
 
 elif selected_sample != "None":
 
-    image_path = os.path.join(
-        "demo_images",
-        sample_images[selected_sample]
+    image_path = (
+        BASE_DIR
+        / "demo_images"
+        / sample_images[selected_sample]
     )
 
     image = Image.open(
