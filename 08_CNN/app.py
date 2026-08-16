@@ -1,6 +1,7 @@
 import streamlit as st
 import numpy as np
 import os
+from pathlib import Path
 
 from PIL import Image
 from tensorflow.keras.models import load_model
@@ -12,18 +13,17 @@ from tensorflow.keras.models import load_model
 @st.cache_resource
 def load_models():
 
+    base_dir = Path(__file__).resolve().parent
+
     enhanced = load_model(
-        "muffin_chihuahua_enhanced.keras"
+        base_dir / "muffin_chihuahua_enhanced.keras"
     )
 
     transfer = load_model(
-        "muffin_chihuahua_transfer.keras"
+        base_dir / "muffin_chihuahua_transfer.keras"
     )
 
     return enhanced, transfer
-
-
-enhanced_model, transfer_model = load_models()
 
 # --------------------------------------------------
 # Demo Images
