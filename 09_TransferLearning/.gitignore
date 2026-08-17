@@ -1,0 +1,30 @@
+# Virtual environment
+.venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Dataset
+data/raw/*
+data/processed/*
+
+# Trained models
+models/*.keras
+models/*.h5
+models/*.weights.h5
+
+# TensorFlow logs
+logs/
+*.tfevents.*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
