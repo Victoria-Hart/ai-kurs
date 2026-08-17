@@ -1,8 +1,8 @@
-\# Transfer Learning – Steel Surface Defect Classification
+# Transfer Learning – Steel Surface Defect Classification
 
 
 
-\## Overview
+## Overview
 
 
 
@@ -14,7 +14,7 @@ The project uses an ImageNet-pretrained ResNet50V2 model and adapts it to the NE
 
 
 
-\## Project Status
+## Project Status
 
 
 
@@ -22,25 +22,25 @@ In progress.
 
 
 
-\## Technologies
+## Technologies
 
 
 
-\- Python
+- Python
 
-\- TensorFlow / Keras
+- TensorFlow / Keras
 
-\- ResNet50V2
+- ResNet50V2
 
-\- Jupyter Notebook
+- Jupyter Notebook
 
-\- NumPy
+- NumPy
 
-\- Pandas
+- Pandas
 
-\- Scikit-learn
+- Scikit-learn
 
-\- Matplotlib
+- Matplotlib
 
-\- Seaborn
+- Seaborn
 
