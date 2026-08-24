@@ -1,0 +1,10 @@
+pandas
+numpy
+matplotlib
+seaborn
+scikit-learn
+tensorflow
+umap-learn
+datasets
+sentence-transformers
+streamlit
